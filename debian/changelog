@@ -1,0 +1,5 @@
+libnginx-mod-http-vts (0.2.2-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- r2 <holishing@ccns.ncku.edu.tw>  Thu, 03 Aug 2023 16:52:11 +0000

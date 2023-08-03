@@ -1,0 +1,18 @@
+Source: libnginx-mod-http-vts
+Section: httpd
+Priority: optional
+Maintainer: r2 <holishing@ccns.ncku.edu.tw>
+Uploaders: r2 <holishing@ccns.ncku.edu.tw>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-nginx,
+               nginx-abi-1.24.0-1,
+Standards-Version: 4.6.2
+Homepage: https://github.com/vozlt/nginx-module-vts
+Rules-Requires-Root: no
+
+Package: libnginx-mod-http-vts
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Nginx virtual host traffic status module
